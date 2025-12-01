@@ -1,0 +1,104 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(circle at top, #1b2a5f, #050816 70%);
+  color: #eef2ff;
+}
+
+/* HEADER */
+
+header{
+  text-align: center;
+  background-color: #0b1023;
+  padding: 15px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+/* COMIC PAGE LAYOUT */
+.comic-page {
+  max-width: 900px;
+  margin: 25px auto;
+}
+
+/* COMIC PANELS */
+.panel {
+  background: #11162f;
+  border: 2px solid #394680;
+  border-radius: 14px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.panel img {
+  max-width: 45%;
+  display: inline-block; 
+  margin: 10px;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+
+
+.panel-text {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.panel-text p {
+  margin: 0 0 10px 0;
+}
+
+
+/* SPECIAL EFFECT TEXT STYLES */
+.system-text {
+  font-family: "Courier New", monospace;
+  border: 1px solid #567aff;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.system-options {
+  font-family: "Courier New", monospace;
+  color: #a3b7ff;
+}
+
+
+.glow {
+  box-shadow: 0 0 25px rgba(80, 120, 255, 0.7);
+}
+
+
+/* BUTTONS AND LINKS */
+.buttons {
+  text-align: center;
+  margin: 25px;
+}
+
+.btn {
+  display: inline-block;
+  background: #3c6df0;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 22px;
+  border-radius: 999px;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #5a84ff;
+  transform: translateY(-2px);
+}
+
+.btn.alt {
+  background: #141a33;
+  border: 1px solid #3c6df0;
+  color: #d8e0ff;
+}
